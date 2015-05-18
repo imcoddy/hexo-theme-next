@@ -1,7 +1,7 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -11,7 +11,7 @@ menu:
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo,next"
+keywords: "Blog,imcoddy,Qiu Di,Q小帝"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -37,20 +37,20 @@ mathjax:
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-sidebar: post
+#sidebar: post
 #sidebar: always
-#sidebar: hide
+sidebar: hide
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 
 # Automatically add list number to toc.
