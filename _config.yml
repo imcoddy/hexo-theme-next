@@ -1,6 +1,6 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
-  home: /
+  #home: /
   categories: /categories
   #about: /about
   archives: /archives
@@ -11,7 +11,7 @@ menu:
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Blog,imcoddy,Qiu Di,Q小帝"
+keywords: "Blog, imcoddy, Qiu Di, Q小帝"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
