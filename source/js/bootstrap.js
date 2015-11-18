@@ -23,6 +23,12 @@ $(document).ready(function () {
     });
   });
 
+  $('#st-search-input').focus(function(){
+    $(this).animate({ width:"250px"}, 800); // enlarge width
+  }).blur(function(){
+    $(this).animate({ width:"140px"}, 800); // return to original value
+  });
+
   // Define Motion Sequence.
   motionIntegrator
     .add(motionMiddleWares.logo)
