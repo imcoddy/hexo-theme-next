@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Blog, imcoddy, Qiu Di, Q小帝"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -26,8 +26,8 @@ rss:
 # When running hexo in a subdirectory (e.g. domain.tld/blog)
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
-  home: /
-  #categories: /categories
+  #home: /
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -71,9 +71,9 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+#sidebar: post
 #sidebar: always
-#sidebar: hide
+sidebar: hide
 #sidebar: remove
 
 
@@ -139,7 +139,7 @@ custom_logo:
 highlight_theme: normal
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically Excerpt
 auto_excerpt:
